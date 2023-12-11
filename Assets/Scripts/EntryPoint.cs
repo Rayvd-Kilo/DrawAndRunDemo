@@ -1,14 +1,12 @@
-using DefaultNamespace.Controllers;
-using DefaultNamespace.Models;
-using DefaultNamespace.Views;
-
-using DrawingModule.Views;
-
-using PlayerHordeModule.Views;
+using DrawAndRun.Controllers;
+using DrawAndRun.DrawingModule.Views;
+using DrawAndRun.Models;
+using DrawAndRun.PlayerHordeModule.Views;
+using DrawAndRun.Views;
 
 using UnityEngine;
 
-namespace DefaultNamespace
+namespace DrawAndRun
 {
     public class EntryPoint : MonoBehaviour
     {

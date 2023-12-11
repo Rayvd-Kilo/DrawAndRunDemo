@@ -1,10 +1,10 @@
 using System;
 
-using DefaultNamespace.Enums;
+using DrawAndRun.Enums;
 
 using UnityEngine;
 
-namespace DefaultNamespace.Data
+namespace DrawAndRun.Data
 {
     [Serializable]
     public struct TweenData

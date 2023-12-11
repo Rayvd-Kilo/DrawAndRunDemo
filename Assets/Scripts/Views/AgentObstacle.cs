@@ -1,8 +1,8 @@
-using PlayerHordeModule.Views;
+using DrawAndRun.PlayerHordeModule.Views;
 
 using UnityEngine;
 
-namespace DefaultNamespace.Views
+namespace DrawAndRun.Views
 {
     public class AgentObstacle : BaseObstacleView
     {

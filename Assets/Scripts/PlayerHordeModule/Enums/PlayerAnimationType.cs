@@ -1,4 +1,4 @@
-namespace PlayerHordeModule.Enums
+namespace DrawAndRun.PlayerHordeModule.Enums
 {
     public enum PlayerAnimationType
     {

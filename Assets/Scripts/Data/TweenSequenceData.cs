@@ -2,7 +2,7 @@ using System;
 
 using UnityEngine;
 
-namespace DefaultNamespace.Data
+namespace DrawAndRun.Data
 {
     [Serializable]
     public struct TweenSequenceData

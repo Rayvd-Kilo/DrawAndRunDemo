@@ -1,18 +1,16 @@
 using Cysharp.Threading.Tasks;
 
-using DefaultNamespace.Models;
-using DefaultNamespace.Views;
-
-using DrawingModule.Views;
+using DrawAndRun.DrawingModule.Views;
+using DrawAndRun.Models;
+using DrawAndRun.PlayerHordeModule.Enums;
+using DrawAndRun.PlayerHordeModule.Views;
+using DrawAndRun.Views;
 
 using Dreamteck;
 
-using PlayerHordeModule.Enums;
-using PlayerHordeModule.Views;
-
 using UnityEngine;
 
-namespace DefaultNamespace.Controllers
+namespace DrawAndRun.Controllers
 {
     public class GameplayController
     {

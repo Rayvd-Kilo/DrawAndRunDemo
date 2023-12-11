@@ -1,14 +1,14 @@
 using System;
 
-using DefaultNamespace.Data;
-
 using DG.Tweening;
+
+using DrawAndRun.Data;
 
 using UnityEngine;
 
-using TweenType = DefaultNamespace.Enums.TweenType;
+using TweenType = DrawAndRun.Enums.TweenType;
 
-namespace DefaultNamespace.Views
+namespace DrawAndRun.Views
 {
     public class AnimatedView : MonoBehaviour
     {
@@ -31,13 +31,13 @@ namespace DefaultNamespace.Views
             {
                 switch (tweenData.TweenType)
                 {
-                    case TweenType.Move:
+                    case Enums.TweenType.Move:
                         _activeSequence.Append(_isRectTransform
                             ? transform.GetComponent<RectTransform>()
                                 .DOAnchorPos(tweenData.TransformDirection, tweenData.TweenTime)
                             : transform.DOLocalMove(tweenData.TransformDirection, tweenData.TweenTime));
                         break;
-                    case TweenType.Rotate:
+                    case Enums.TweenType.Rotate:
                         _activeSequence.Append(transform.DOLocalRotate(tweenData.TransformDirection, tweenData.TweenTime));
                         break;
                     default:

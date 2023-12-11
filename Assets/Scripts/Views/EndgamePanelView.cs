@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace DefaultNamespace.Views
+namespace DrawAndRun.Views
 {
     public class EndgamePanelView : AnimatedView
     {

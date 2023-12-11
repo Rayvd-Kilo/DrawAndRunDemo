@@ -1,8 +1,8 @@
-using PlayerHordeModule.Animation;
+using DrawAndRun.PlayerHordeModule.Animation;
 
 using UnityEngine;
 
-namespace PlayerHordeModule.Views
+namespace DrawAndRun.PlayerHordeModule.Views
 {
     public class HordeUnitView : MonoBehaviour
     {

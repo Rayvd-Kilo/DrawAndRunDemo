@@ -11,7 +11,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace DrawingModule.Views
+namespace DrawAndRun.DrawingModule.Views
 {
     public class CurveDrawerView : MonoBehaviour, IPointerUpHandler, IPointerDownHandler, IPointerExitHandler
     {

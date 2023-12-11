@@ -1,4 +1,4 @@
-namespace DefaultNamespace.Enums
+namespace DrawAndRun.Enums
 {
     public enum TweenType
     {

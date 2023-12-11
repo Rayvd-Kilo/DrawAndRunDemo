@@ -1,10 +1,10 @@
 using System;
 
-using PlayerHordeModule.Enums;
+using DrawAndRun.PlayerHordeModule.Enums;
 
 using UnityEngine;
 
-namespace PlayerHordeModule.Animation
+namespace DrawAndRun.PlayerHordeModule.Animation
 {
     public class PlayerAnimationController
     {

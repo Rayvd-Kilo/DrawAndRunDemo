@@ -1,4 +1,4 @@
-namespace DefaultNamespace.Models
+namespace DrawAndRun.Models
 {
     public class GameplayModel
     {

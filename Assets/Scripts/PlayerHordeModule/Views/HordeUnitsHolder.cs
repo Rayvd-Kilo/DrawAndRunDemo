@@ -4,7 +4,7 @@ using Dreamteck.Splines;
 
 using UnityEngine;
 
-namespace PlayerHordeModule.Views
+namespace DrawAndRun.PlayerHordeModule.Views
 {
     public class HordeUnitsHolder : MonoBehaviour
     {

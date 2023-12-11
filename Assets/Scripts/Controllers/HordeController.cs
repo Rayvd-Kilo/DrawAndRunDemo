@@ -2,14 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-using DefaultNamespace.Models;
+using DrawAndRun.Models;
 
 using DG.Tweening;
 
-using DrawingModule.Views;
-
-using PlayerHordeModule.Enums;
-using PlayerHordeModule.Views;
+using DrawAndRun.DrawingModule.Views;
+using DrawAndRun.PlayerHordeModule.Enums;
+using DrawAndRun.PlayerHordeModule.Views;
 
 using Unity.VisualScripting;
 
@@ -17,7 +16,7 @@ using UnityEngine;
 
 using Object = UnityEngine.Object;
 
-namespace DefaultNamespace.Controllers
+namespace DrawAndRun.Controllers
 {
     public class HordeController : IDisposable
     {
